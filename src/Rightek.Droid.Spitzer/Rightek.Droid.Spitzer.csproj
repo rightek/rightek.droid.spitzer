@@ -1,0 +1,36 @@
+﻿<Project Sdk="MSBuild.Sdk.Extras/2.0.54">
+  <PropertyGroup>
+    <TargetFrameworks>monoandroid4.4</TargetFrameworks>
+    <IsBindingProject>true</IsBindingProject>
+    <AssemblyName>Rightek.Droid.Spitzer</AssemblyName>
+    <RootNamespace>Rightek.Droid.Spitzer</RootNamespace>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <AndroidUseIntermediateDesignerFile>True</AndroidUseIntermediateDesignerFile>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>1.0.0.0</Version>
+    <FileVersion>1.0.0.0</FileVersion>
+    <InformationalVersion>1.0.0.0</InformationalVersion>
+    <PackageVersion>1.0.0</PackageVersion>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Rightek.Droid.Spitzer</PackageId>
+    <Title>Rightek.Droid.Spitzer</Title>
+    <Description>A simple pinch-to-zoom ImageView library for Xamarin.Android</Description>
+    <Authors>Mehdi Dehghani</Authors>
+    <Owners>Rightek</Owners>
+    <Copyright>Mehdi Dehghani and Rightek</Copyright>
+    <PackageProjectUrl>https://github.com/rightek/Rightek.Droid.Spitzer</PackageProjectUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>xamarin android monodroid zoom</PackageTags>
+    <Company>Rightek</Company>
+    <RepositoryUrl>https://github.com/rightek/Rightek.Droid.Spitzer</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+</Project>
